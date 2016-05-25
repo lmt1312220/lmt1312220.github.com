@@ -1,0 +1,14 @@
+.navbar{
+	min-height: 0px;
+}
+.head {
+	background: #FFCC00;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+
+body{
+	background: #FBFBFB;
+}
