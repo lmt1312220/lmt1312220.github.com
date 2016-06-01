@@ -22,4 +22,3 @@ $('#indicatorContainer2').radialIndicator({
 var radialObj = $('#indicatorContainer').data('radialIndicator');
 //now you can use instance to call different method on the radial progress.
 //like
-console.log(radialObj);

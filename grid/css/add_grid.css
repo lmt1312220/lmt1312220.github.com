@@ -14,3 +14,44 @@
 	background: #33CC00;
 color:white ;
 }
+.input-group img{
+	height:20px;
+}
+.input-group-addon{
+	background: #fff;	border-color: #f2f2f2;
+}
+.form-control{
+border:none;
+		border-color: #f2f2f2;
+		height:44px;
+}
+.introduce_time{
+	color:#FFCC00;
+	font-size:12px;
+	text-decoration:underline;
+cursor:pointer;
+}
+.balance2-3put{
+margin-top: 20px;
+}
+/*修改*/
+.modal-content
+{
+	position: absolute;
+	top:180px;
+	left:10%;
+	height:200px;
+	width: 80%
+}
+.modal-footer{
+	text-align: left;
+}
+.btn{
+	width: 47%;
+}
+.introduce{
+	margin: 10px;
+}
+.p4{
+	margin-left: 60%;
+}

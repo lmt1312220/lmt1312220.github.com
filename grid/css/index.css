@@ -1,4 +1,11 @@
-
+canvas {
+	width:100%;
+	max-width: 113px;
+} 
+.head img{
+float: right;
+width:7%;
+}
 .middle {
 	color: white;	margin-top:80px; 
 }
@@ -11,7 +18,7 @@
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-.middle .col-xs-8 .span {
+.middle .col-xs-8.span {
 	font-size: 14px;
 }
 /*.middle .col-xs-2{
@@ -23,12 +30,47 @@
 .middle .grid-1 {
 	background: #CCD86C;
 }
-.middle .cirle-progress-bar {
-	float: right;
-/*	margin:10px;*/
-margin-top: -105px;
+.middle .grid-3 {
+	background: #111;
 }
 .bottom .col-xs-4{
 font-size: 12px;
 
+}
+
+
+.form{
+text-align: center;
+padding-top: 10px;
+}
+.form img{
+cursor:pointer;
+}
+.form1{
+text-align: center;
+padding-top: 0px;
+}
+.txt{
+display: block;
+color: #AEAEAE;
+font-weight: bold;
+font-size: 10px;
+}
+.txt2{
+display: block;
+color: black;
+/*font-weight: bold;*/
+font-size: 10px;
+}
+#body6 {
+background-color: white;
+border-top: 1px solid #F2F2F2;
+position:fixed;
+bottom:0px;
+width: 100%;
+}
+hr{
+	color:#F2F2F2;
+	z-index: -1;
+	margin-bottom: -15px;
 }
