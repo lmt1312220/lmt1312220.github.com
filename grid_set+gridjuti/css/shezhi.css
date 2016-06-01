@@ -1,0 +1,30 @@
+#x{
+	margin-top: 60px;
+}
+#grid{
+	background-color: white;
+	border-style: solid none solid none;
+	border-width:1px;
+	border-color: #F2F2F2;
+	padding:10px; 
+	padding-left:0px; 
+	padding-right:0px; 
+	margin: 0px;
+	margin-top: 20px;
+
+}
+
+.col-xs-2 img{
+	float: right;
+}
+#headreturn{
+	padding-left: 0px;
+}
+#button{
+	background-color: #FFCC00;
+	border-style: none;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	padding:8px;
+}

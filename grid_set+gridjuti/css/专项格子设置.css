@@ -1,0 +1,32 @@
+#flo span{
+	color: #AEAEAE;
+	float: right;
+}
+#buttonheight{
+	height: 60px;
+	padding:10px;
+}
+#delbutton{
+	background-color: #FF3300;
+	color: white;
+	border-radius: 3px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	text-align: center;
+	height: 40px;
+	padding-top: 7px;
+}
+.modal-content
+{
+	position: absolute;
+	top:180px;
+	left:10%;
+	height:200px;
+	width: 80%
+}
+.modal-footer{
+	text-align: left;
+}
+.btn{
+	width: 47%;
+}

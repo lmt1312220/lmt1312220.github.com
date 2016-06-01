@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>旅游</title>
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/radialindicator.js"></script>
+    <script src="../js/circle.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/shezhi.css">
+     <link rel="stylesheet" href="../css/public2.css">
+     <link rel="stylesheet" href="../css/gezijuti.css">
+  </head>
+  <?php
+  include("public.html");
+  ?>
+  <body style='background-color: #FBFBFB;'> <!-- head -->
+    <nav class="navbar navbar-default  navbar-fixed-top head">
+        <div class="container">
+          <div class="row">
+            <div class='col-xs-1' id='headreturn'><a href=""><img src="../picture/左箭头白色.png" width='20px'></a></div>
+            <div class="col-xs-10">
+              <span>旅游的钱</span>
+            </div>
+            <div class='col-xs-1' id='shezhi'><a href="专项格子设置.HTML"><img src="../picture/设置.png" width='20px'></a></div>
+          </div>
+        </div>
+      </nav> 
+
+    <!-- middle -->
+
+     <div class='container'>
+        <div class="row middle">
+          
+       <!--    <div class='row' id='d'></div> -->
+
+      <div class="row" id="wallet-main">
+          <div style="margin-top:40px">
+            <span style="font-size:15px">今日可用(元)</span>
+          </div>
+          <div id="everyday">
+            <span  style="font-size:80px">30.15</span>
+          </div>
+          <div style="margin-top:15px"><span style="font-size:15px">总金额(元)</span></div>
+          <div id="totalmoney"><span >420.50</span></div>
+    </div>
+   <div class='row' id='information'>
+     <div class='col-xs-2' id='nopadding'>
+       <div class='row' id='text' style='border-style:none;'>利率</div>
+       <div class='row' id='num' style='border-style:none;'>0.4%</div>
+     </div>
+     <div class='col-xs-5' id='nopadding'>
+       <div class='row' id='text'>昨日收益（元）</div>
+       <div class='row' id='num'>1.2</div>
+     </div>
+     <div class='col-xs-5' id='nopadding'>
+       <div class='row' id='text'>目标金额（元）</div>
+       <div class='row' id='num'>10000</div>
+     </div>
+   </div> 
+        <div class='row' id='text1'><span>*存款时间</span><span>2016.4.10-2017.05.04</span></div>  
+    <div class='row' id='graph'></div>
+        </div>
+      </div>
+
+      <!-- bottom -->
+      <nav class="navbar navbar-default navbar-fixed-bottom ">
+      <div class="container-fluid">
+       <div class="row" id="body6" >
+         <a href=""><div class='col-xs-6' id='btext'>转出</div></a>
+         <a href=""><div class='col-xs-6' id='btext'>存入</div></a>
+       </div>
+    </div>
+              </nav> 
+    </body>
+      </html>

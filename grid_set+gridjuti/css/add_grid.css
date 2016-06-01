@@ -1,0 +1,17 @@
+.navbar {
+	min-height: 0px;
+	
+}
+.middle {
+	margin-top:80px; 
+}
+.middle .col-xs-10 {
+	margin-top: 40px;
+}
+.button .col-xs-10 {
+	padding: 10px;
+	margin-top:50px; 
+	text-align: center;
+	background: #33CC00;
+color:white ;
+}
