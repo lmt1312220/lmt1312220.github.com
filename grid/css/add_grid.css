@@ -7,6 +7,7 @@
 .middle .col-xs-10 {
 	margin-top: 40px;
 }
+
 .button .col-xs-10 {
 	padding: 10px;
 	margin-top:50px; 
@@ -53,5 +54,10 @@ margin-top: 20px;
 	margin: 10px;
 }
 .p4{
-	margin-left: 60%;
+	margin-right: 10%;
+	text-align:right; 
 }
+#demo1{
+background: white;
+}
+
