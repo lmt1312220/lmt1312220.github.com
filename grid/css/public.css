@@ -2,11 +2,12 @@
 	min-height: 0px;
 }
 .head {
-	background: #FFCC00;
-	color: white;
+	background-color: #ffcc00;
+	font-family: "微软雅黑";
+	font-size: 25px;
 	text-align: center;
-	font-size: 20px;
-	padding: 10px;
+	padding: 10px 0 10px 0;
+	color: white;
 }
 
 body{

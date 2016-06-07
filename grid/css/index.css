@@ -2,75 +2,61 @@ canvas {
 	width:100%;
 	max-width: 113px;
 } 
-.head img{
-float: right;
-width:7%;
+.head .col-xs-10 span{
+   text-align: center;
 }
+.head .col-xs-1 img{
+    position: absolute;
+     left: 17%;
+    top:5px;
+}
+
 .middle {
-	color: white;	margin-top:80px; 
+	color: white;	margin-top:60px; margin-bottom:60px;	
+	margin-left: 20px;
+	margin-right: 20px;
 }
  .middle h2 {
 	margin-bottom:20px;
 	margin-top: 20px;
 }	
-.middle .col-xs-8 {
+.middle .col-xs-12 {
+
 	padding: 20px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
-.middle .col-xs-8.span {
+.middle .col-xs-12.span {
 	font-size: 14px;
 }
-/*.middle .col-xs-2{
-	background: white;
-}*/
-.middle .grid-2 {
-	background: #FAA24B;
-}
-.middle .grid-1 {
-	background: #CCD86C;
-}
-.middle .grid-3 {
-	background: #111;
-}
+
 .bottom .col-xs-4{
 font-size: 12px;
 
 }
 
-
 .form{
-text-align: center;
-padding-top: 10px;
-}
-.form img{
-cursor:pointer;
-}
-.form1{
-text-align: center;
-padding-top: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 .txt{
-display: block;
-color: #AEAEAE;
-font-weight: bold;
-font-size: 10px;
+	display: block;
+	color: #AEAEAE;
+
+	font-size: 10px;
 }
 .txt2{
-display: block;
-color: black;
-/*font-weight: bold;*/
-font-size: 10px;
+	display: block;
+	color: black;
+
+	font-size: 10px;
 }
 #body6 {
-background-color: white;
-border-top: 1px solid #F2F2F2;
-position:fixed;
-bottom:0px;
-width: 100%;
+	background-color: white;
+
 }
-hr{
-	color:#F2F2F2;
-	z-index: -1;
-	margin-bottom: -15px;
-}
+
+
+.grid_link{color:white;}
+.grid_link:hover{color:white;}

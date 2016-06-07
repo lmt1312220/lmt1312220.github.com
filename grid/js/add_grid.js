@@ -1,4 +1,5 @@
 
+   
 var jingguoyue;
 //today
 //过推荐的日期了一段时间后
@@ -61,8 +62,18 @@ $(init);
 function init () {
   $(".introduce_time").click(function(){  
           var val = $(".p2").val();
-          if(parseInt(val)<=1000)
+         if(parseInt(val)<=5000){
               jingguoyue=2;
+              lilu=0.02;
+            }
+          else if(parseInt(val)>5000&&parseInt(val)<=10000){
+              jingguoyue=4;
+              lilu=0.04;
+            }
+            else if(parseInt(val)>10000){
+              jingguoyue=6;
+              lilu=0.06;
+            }
           var  a=parseInt(parseInt(val)/(30*jingguoyue)); 
           $("div.modal-body ").html("推荐存"+jingguoyue+"个月，利率为0.02%，每日大约存"+a+"元，是否接受这种推荐");
   });
