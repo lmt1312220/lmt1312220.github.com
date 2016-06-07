@@ -1,0 +1,49 @@
+body {
+   background-color: rgb(251,251,251);
+}
+#head {
+   font-size: 25px;
+   padding: 10px 0;
+   text-align: center;
+   background-color: rgb(254,205,1);
+   color: white;
+}
+#body {
+   background-color: rgb(251,251,251);
+   border-bottom: 1px solid black;
+   margin: 25px 15px;
+}
+#body1 {
+   background-color: rgb(251,251,251);
+}
+.jiantou {
+   position: relative;
+   float: left;
+   margin: 5px 0;
+}
+.cha {
+   float: right;
+   margin: 5px 0;
+}
+.text{
+	  border: none;
+    background-color: rgb(251,251,251);
+    width:90%;
+    margin: 5px 0;
+}
+#button{
+	color: white;
+	background-color: rgb(254,205,1);
+	display: inline-block;
+	width: 96%;
+	text-align: center;
+	margin: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
+
+}
+input{border:0px;}
+
+

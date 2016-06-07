@@ -1,0 +1,62 @@
+canvas {
+	width:100%;
+	max-width: 113px;
+} 
+.head .col-xs-10 span{
+   text-align: center;
+}
+.head .col-xs-1 img{
+    position: absolute;
+     left: 17%;
+    top:5px;
+}
+
+.middle {
+	color: white;	margin-top:60px; margin-bottom:60px;	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+ .middle h2 {
+	margin-bottom:20px;
+	margin-top: 20px;
+}	
+.middle .col-xs-12 {
+
+	padding: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.middle .col-xs-12.span {
+	font-size: 14px;
+}
+
+.bottom .col-xs-4{
+font-size: 12px;
+
+}
+
+.form{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.txt{
+	display: block;
+	color: #AEAEAE;
+
+	font-size: 10px;
+}
+.txt2{
+	display: block;
+	color: black;
+
+	font-size: 10px;
+}
+#body6 {
+	background-color: white;
+
+}
+
+
+.grid_link{color:white;}
+.grid_link:hover{color:white;}
